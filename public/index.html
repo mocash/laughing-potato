@@ -6,7 +6,7 @@
   <title>SirTechWeb</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -15,46 +15,57 @@
     }
 
     header {
-      background-color: #333; /* Dark gray header */
+      background-color: #9ab182; /* Light green header */
       color: white;
       text-align: center;
       padding: 1em 0;
+      text-transform: uppercase; /* Uppercase text */
     }
 
     nav {
-      background-color: #555; /* Darker gray navigation bar */
+      background-color: #A2D16F; /* Lighter green navigation bar */
       padding: 0.5em;
       text-align: center;
     }
 
     nav a {
-      color: white;
+      color: #fff;
       text-decoration: none;
       padding: 0.5em 1em;
       margin: 0 0.5em;
       border-radius: 5px;
       transition: background-color 0.3s ease;
+      background-color: #060803; /* Light green background */
+      text-transform: uppercase; /* Uppercase text */
     }
 
     nav a:hover {
-      background-color: #777; /* Even darker gray on hover */
+      background-color: #687957; /* Darker green on hover */
     }
 
     section {
       max-width: 800px;
       margin: 2em auto;
       padding: 2em;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff; /* White background for the section */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
       border-radius: 8px;
       text-align: left;
+      text-transform: uppercase; /* Uppercase text */
+    }
+
+    section img {
+      max-width: 100%; /* Make sure images don't overflow their container */
+      border-radius: 8px; /* Add rounded corners to the image */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for the image */
     }
 
     footer {
-      background-color: #333; /* Dark gray footer */
+      background-color: #31362b; /* Lighter green footer */
       color: white;
       padding: 1em 0;
       text-align: center;
+      text-transform: uppercase; /* Uppercase text */
     }
   </style>
 </head>
@@ -71,7 +82,7 @@
   </nav>
 
   <section>
-    <h1>Hello, Express!</h1>
+    <h1>Hello, From MIT!</h1>
 
     <!-- Add an image -->
     <img src="./map.PNG" alt="Description of the image">
